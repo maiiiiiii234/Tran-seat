@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&family=Pacifico&display=swap');
+
+/*//////////////// all ////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    }
+
+body {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "hd hd"
+                        "dia main"
+                        "ft ft";
+    background-image: linear-gradient(to right,  white , rgb(223, 179, 224) );
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/*//////////////// content ////////////////////*/
+
+main{
+    margin-top: 100px;
+    grid-area: main;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col h5 {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.card p {
+    color: azure;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card {
+    width: 900px;
+    height: 230px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 250px auto 200px;
+    grid-template-rows: 60px auto 150px;
+    grid-template-areas: "pic hd hd"
+                        "pic det prc"
+                        "pic det btn";
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px rgb(227, 159, 246, 0.6);
+    cursor: pointer;
+    margin: 50px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    overflow: hidden;
+    border-bottom-style: 240px;
+    background-color: rgb(248, 240, 225);
+    margin-top: -10px;
+}
+.cardsoon{
+    width: 900px;
+    height: 230px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 250px auto 200px;
+    grid-template-rows: 60px auto 150px;
+    grid-template-areas: "pic hd hd"
+                        "pic det prc"
+                        "pic det btn";
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px rgb(227, 159, 246, 0.6);
+    cursor: pointer;
+    margin: 50px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    overflow: hidden;
+    border-bottom-style: 240px;
+    background-color: rgb(248, 240, 225);
+    opacity: 0.4;
+    margin-top: -10px;
+}
+.soon{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    grid-area: det;
+}
+.prc{
+    grid-area: prc;
+    font-family: 'Mulish', sans-serif;
+    text-align: bottom;
+    border-style: dashed;
+    border-color: rgb(227, 159, 246, 0.6);
+    margin-right: 80px;
+    margin-left: 20px;
+    text-align: center;
+}
+.btn{
+    width:150px;
+    height:50px ;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#e39ff6;
+    padding: 10px 20px;
+    display: inline-block;
+    letter-spacing:2px;
+    font-size: 300;
+    border-style:none;
+    border-radius: 10px;
+    grid-area: btn;
+    transition: all 1s ease-in;
+}
+.btn a{
+    color:white;
+    font-weight: 500;
+}
+#btn:hover{
+    background-color:white;
+    transform: translate(0,-4px);
+    box-shadow: 0px 10px 20px 2px teal;
+    border:teal;
+}
+
+#btn:hover a{
+    color:teal;
+}
+
+.card1{
+   grid-area: pic;
+   border-radius: 20px;
+   margin-left: -23px;
+   margin-top: -23px;
+}
+.place{
+    font-family: 'Mulish', sans-serif;
+    grid-area: hd;
+}
+.details{
+    grid-area: det;
+}
+.details li{
+    font-weight: 400;
+    color:black;
+    font-size: smaller;
+    padding-bottom: 4px;
+}

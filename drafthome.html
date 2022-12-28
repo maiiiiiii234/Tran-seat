@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="drafthome.css" title="style" /><!--link drafthomecss-->
+
+    <title>Tran-Seat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script><!--link jquery-->
+
+    <link rel="icon" href="image/icon.jpg" type="image/x-icon"><!--title logo-->
+    <script src="drafthome.js"></script>
+
+    <link rel="preconnect" href="<https://app.snipcart.com>" /><!--cart external-->
+    <link rel="preconnect" href="<https://cdn.snipcart.com>" />
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+</head>
+
+<body>
+    <script>//////cart
+        window.SnipcartSettings = {
+            publicApiKey: "ZmYwY2ZiOTctMTAwMi00ZGM4LWJiMWItYzllYWQzNDMyZjg5NjM4MDczMDEwMjkzODY5Mjgw",
+            loadStrategy: "on-user-interaction",
+            modalStyle: "side",
+        };
+
+        (function () { var c, d; (d = (c = window.SnipcartSettings).version) != null || (c.version = "3.0"); var s, S; (S = (s = window.SnipcartSettings).timeoutDuration) != null || (s.timeoutDuration = 2750); var l, p; (p = (l = window.SnipcartSettings).domain) != null || (l.domain = "cdn.snipcart.com"); var w, u; (u = (w = window.SnipcartSettings).protocol) != null || (w.protocol = "https"); var m, g; (g = (m = window.SnipcartSettings).loadCSS) != null || (m.loadCSS = !0); var y = window.SnipcartSettings.version.includes("v3.0.0-ci") || window.SnipcartSettings.version != "3.0" && window.SnipcartSettings.version.localeCompare("3.4.0", void 0, { numeric: !0, sensitivity: "base" }) === -1, f = ["focus", "mouseover", "touchmove", "scroll", "keydown"]; window.LoadSnipcart = o; document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", r) : r(); function r() { window.SnipcartSettings.loadStrategy ? window.SnipcartSettings.loadStrategy === "on-user-interaction" && (f.forEach(function (t) { return document.addEventListener(t, o) }), setTimeout(o, window.SnipcartSettings.timeoutDuration)) : o() } var a = !1; function o() { if (a) return; a = !0; let t = document.getElementsByTagName("head")[0], n = document.querySelector("#snipcart"), i = document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][src$="snipcart.js"]')), e = document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, '"][href$="snipcart.css"]')); n || (n = document.createElement("div"), n.id = "snipcart", n.setAttribute("hidden", "true"), document.body.appendChild(n)), h(n), i || (i = document.createElement("script"), i.src = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.js"), i.async = !0, t.appendChild(i)), !e && window.SnipcartSettings.loadCSS && (e = document.createElement("link"), e.rel = "stylesheet", e.type = "text/css", e.href = "".concat(window.SnipcartSettings.protocol, "://").concat(window.SnipcartSettings.domain, "/themes/v").concat(window.SnipcartSettings.version, "/default/snipcart.css"), t.prepend(e)), f.forEach(function (v) { return document.removeEventListener(v, o) }) } function h(t) { !y || (t.dataset.apiKey = window.SnipcartSettings.publicApiKey, window.SnipcartSettings.addProductBehavior && (t.dataset.configAddProductBehavior = window.SnipcartSettings.addProductBehavior), window.SnipcartSettings.modalStyle && (t.dataset.configModalStyle = window.SnipcartSettings.modalStyle), window.SnipcartSettings.currency && (t.dataset.currency = window.SnipcartSettings.currency), window.SnipcartSettings.templatesUrl && (t.dataset.templatesUrl = window.SnipcartSettings.templatesUrl)) } })();
+    </script>
+
+    <header id="navbar">
+        <a href="drafthome.html"> <img class="logo" src="image/logo.jpg" width="170" height="150" ALIGN=left></a>
+        <nav id="navbar">
+            <ul class="links">
+                <li><a href="drafthome.html">Home</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Services </button>
+                        <div class="dropdown-content">
+                            <a href="beach.php">Beach Tourism</a>
+                            <a href="hst.php">Historical Tourism</a>
+                            <a href="safari.php">Safari Tourism</a>
+                            <a href="inthecity.php">In The City Tourism</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#contacts">Contact us</a></li>
+                <li><a href="loginpage.html"> <i class="fa fa-fw fa-user"></i>Login</a></li>
+                <li><a class="snipcart-checkout"> <i class="fas fa-cart-shopping"></i></a></li>
+                <li><label for="search"><i class="fa fa-fw fa-search"></i><input type="text" id="search"
+                            placeholder="  search..."></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="bigbox"><!--Mai's part-->
+                <div class="left"></div>
+                <div class="between">
+                    <h1>Travel is the only thing you buy that makes you <span class="multitext"></span> </h1>
+                    <button class="btn"><a href="login.html" class="btn"> Sign-Up</a> </button>
+                </div>
+                <div class="right"></div>
+            </div>
+        </section>
+
+
+        <div class="wrapper"><!--Marena's part-->
+            <h1 id="conthead"> THIS IS EGYPT </h1>
+
+            <div class="mohfza">
+                <div class="esm_el_mohfza anim">
+                    <div class="image">
+                        <img src="image/aswan.jpg">
+                    </div>
+                    <h3>Aswan</h3>
+                    <p class="details"></p>
+                    <p>Aswan, a city on the Nile River, has been southern Egypt’s strategic and commercial gateway since
+                        antiquity. It contains significant
+                        archaeological sites like the Philae temple complex, on Agilkia Island near the landmark Aswan
+                        Dam.
+
+                    </p>
+                </div>
+                <div class="esm_el_mohfza ">
+                    <div class="image">
+                        <img src="image/fayoum.jpg">
+                    </div>
+                    <h3>Fayoum</h3>
+                    <p class="details">
+                        Faiyum is a city in Middle Egypt. Located 100 kilometres southwest of Cairo,
+                        in the Faiyum Oasis, it is the capital of the modern Faiyum Governorate
+                    </p>
+                </div>
+                <div class="esm_el_mohfza ">
+                    <div class="image">
+                        <img src="image/newsiwa - Copy.jpg">
+                    </div>
+                    <h3>Siwa Oasis</h3>
+                    <p class="details">
+                        The Siwa Oasis is an urban oasis in Egypt; between the Qattara Depression and the Great Sand
+                        Sea in the Western Desert,
+                        50 km east of the Libyan border, and 560 km from the capital.
+                    </p>
+                </div>
+                <div class="esm_el_mohfza ">
+                    <div class="image">
+                        <img src="image/luxor.jpg">
+                    </div>
+                    <h3>Luxor</h3>
+                    <p class="details">
+                        Luxor is a city on the east bank of the Nile River in southern Egypt.
+                        It's on the site of ancient Thebes, the pharaohs’ capital at the height of their power.
+                        Today's city surrounds 2 huge, surviving ancient monuments: graceful Luxor and Karnak Temple.
+                    </p>
+                </div>
+                <div class="esm_el_mohfza ">
+                    <div class="image">
+                        <img src="image/dahb.jpg">
+                    </div>
+                    <h3>Dahab</h3>
+                    <p class="details">
+                        Dahab is a small Egyptian town on the southeast coast of the Sinai Peninsula in Egypt,
+                        approximately
+                        80 km northeast of Sharm el-Sheikh.
+                        Formerly a Bedouin fishing village, Dahab is now considered to be one of Egypt's most treasured
+                        diving destinations.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <h1 id="picsh">T<span class="sentence"></span></h1><!--Mai's part-->
+        <div id="collect2">
+
+            <div id="boxes">
+                <div id="imgb"><img src="image/sarah.jpeg"></div>
+                <h3 class="name"> Sarah </h3>
+                <p> I choose my trip from Tran-Seat and it was my best trip ever</p>
+            </div>
+            <div id="boxes">
+                <div id="imgb"><img src="image/imgb2.jpg"></div>
+                <h3 class="name"> Smith </h3>
+                <p> I wanted a children friendly trip and Tran-seat made it easy for me</p>
+            </div>
+            <div id="boxes">
+                <div id="imgb"><img src="image/imgb4.jpg"></div>
+                <h3 class="name"> Jolia </h3>
+                <p> I recommend this website to any one wants to travel to Egypt</p>
+            </div>
+            <div id="boxes">
+                <div id="imgb"><img src="image/imgb3.jpg"></div>
+                <h3 class="name"> Kathrin </h3>
+                <p> It was the best coincident when I found this website</p>
+            </div>
+        </div>
+
+
+        <section><!--Shahd's part-->
+            <div class="between2" id="about"></div>
+            <div class="left2" id="aboutus"></div>
+            <div class="right2">
+                <h1>About Us</h1><br><br>
+                <p class="para">We are a joyful team that reaches out to our clients to have the greatest experience
+                    with
+                    us.
+                    Tran-seat
+                    began its journey in 2016 our main office is located in Dokki near MHS. Our goal when we started
+                    this
+                    project is to be precise and fun. Tran-seat's team is trained to be accurate and to respond and act
+                    with you easily
+                    and quickly. In 2019 we were from the top 5 websites in Egypt to organize your trip way more easier
+                    and in
+                    a better quality than others. As we offer our clients the best quality throughout his/her trip.
+                    Since
+                    traveling does not complete without visiting the hidden gems of the place and doing unforgettable
+                    activities for
+                    memories, feel free to choose your trip in Egypt with us.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer id="contacts">
+        <div class="bottom">
+            <div class="col1">
+                <h3> Address</h3>
+                <p> 21 El Madina El Monawara St.، MOHANDESEEN, <br>Giza District, Giza Governorate 3751064</p>
+            </div>
+            <div class="col2">
+                <h3>Contacts</h3>
+                <p>
+                    Mail: transeat@gmail.com
+                    <br>
+                    phone: 123-456-789
+                </p>
+            </div>
+            <div class="col3">
+                <h3> Socials</h3>
+                <p> <a href="">Facebook</a>
+                    <br>
+                    <a href=""> Twitter</a>
+                    <br>
+                    <a href="">Instagram</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+    <div id="snipcart" data-config-modal-style="side" data-api-key="YOUR_TEST_API_KEY" hidden></div>-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingeff = new Typed(".multitext", {
+            strings: ["Richer", "Happier", "Smarter"],
+            loop: true, typeSpeed: 100, backSpeed: 80, backDelay: 1500
+        });
+        var typingeff = new Typed(".sentence", {
+            strings: ["he best travelling experience"],
+            loop: true, typeSpeed: 100, backSpeed: 80, backDelay: 1500
+        });
+    </script>
+</body>
+
+</html>

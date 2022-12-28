@@ -1,0 +1,125 @@
+<header id="navbar">
+    <a href="drafthome.html"> <img class="logo" src="image/logo.jpg" width="170" height="150" ALIGN=left></a>
+    <nav id="navbar">
+        <ul class="links">
+            <li><a href="drafthome.html">Home</a></li>
+            <li><a href="drafthome.html">About us</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Services </button>
+                    <div class="dropdown-content">
+                        <a href="beach.php">Beach Tourism</a>
+                        <a href="hst.php">Historical Tourism</a>
+                        <a href="safari.php">Safari Tourism</a>
+                        <a href="inthecity.php">In The City Tourism</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#contacts">Contact us</a></li>
+            <li><a href="loginpage.html"> <i class="fa fa-fw fa-user"></i>Login</a></li>
+            <li><a class="snipcart-checkout" > <i class="fas fa-cart-shopping"></i></a></li>
+            <li><label for="search"><i class="fa fa-fw fa-search"></i><input type="text" id="search"
+                        placeholder="  search..."></li>
+        </ul>
+    </nav>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&family=Pacifico&display=swap');
+
+        /*//////////////// navbar ////////////////////*/
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 5px 10%;
+            background-color: inherit;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: transparent;
+            min-width: 160px;
+            z-index: 1;
+            border-left-style: solid;
+            border-left-color: #e39ff6;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 5px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        #search {
+            width: 100px;
+            height: 25px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        li,
+        a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: black;
+            text-decoration: none;
+            transition: color 500ms ease-in-out;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(248, 240, 225,0.6);
+            position: fixed;
+            top: 0;
+            padding: 5px 10%;
+            z-index: 100;
+            height: 100px;
+            width: 100%;
+            transition: all 0.3s;
+            grid-area: hd;
+        }
+
+        .logo {
+            position: relative;
+            float: left;
+            margin-top: 0%;
+        }
+
+        .links {
+            list-style: none;
+        }
+
+        .links li {
+            display: inline-block;
+            padding: 0px 20px;
+        }
+
+        .links li a:hover {
+            /*color: #aeb2bf;*/
+            color: rgb(227, 159, 246, 0.6);
+        }
+    </style>
+</header>
